@@ -1,7 +1,5 @@
 # Log-Analysis-Platform
 
-<h1>Log Analysis Platform</h1>
-
   <p>
     This project was made for my distributed systems security course and it basically blends an IDS with SIEM in one web app. Of the useful components are my python event generator (simulating normal day to day events + attack events) and the rule based detection schemes created in PySpark for attack detection.
   </p>
