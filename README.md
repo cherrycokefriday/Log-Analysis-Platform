@@ -1,12 +1,14 @@
 # Log-Analysis-Platform
 
 About
+
 This project was made to simulate 3 major parts of security monitoring
 1. Security Log Generation and Aggregation
 2. Automated Log Processing for Suspicious Actions
 3. SIEM Log Real Time Display
 
 Tools Used
+
   Python: Event Generation
   Apache Kafka: Log Storage
   Apache Spark (PySpark): Log Processing
