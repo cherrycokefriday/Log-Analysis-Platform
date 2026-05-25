@@ -55,7 +55,7 @@ python newapp.py
 
   <p>
     The application will be available at:
-    <strong>http://localhost:5001</strong>
+    <strong>https://localhost:5001</strong>
   </p>
 
 <!--
