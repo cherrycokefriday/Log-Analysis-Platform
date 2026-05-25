@@ -9,10 +9,10 @@ This project was made to simulate 3 major parts of security monitoring
 
 Tools Used
 
-  Python: Event Generation
-  Apache Kafka: Log Storage
-  Apache Spark (PySpark): Log Processing
-  Flask: Dashboard
+<br> Python: Event Generation
+<br> Apache Kafka: Log Storage
+<br> Apache Spark (PySpark): Log Processing
+<br> Flask: Dashboard
 
  
 Dashboard Image
