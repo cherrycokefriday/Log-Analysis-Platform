@@ -114,10 +114,12 @@ python newapp.py
 
 -->
 
+<h2>Screenshots</h2>
+
  
-Dashboard Image
+<h3>Dashboard Image</h3>
 <img width="1418" height="835" alt="Screenshot 2026-05-24 174325" src="https://github.com/user-attachments/assets/a3d48f67-9048-427a-9036-73b96c2d069e" />
 
 
-Suspicious alerts
+<h3>Suspicious alerts</h3>
 <img width="1363" height="869" alt="Screenshot 2026-05-24 174236" src="https://github.com/user-attachments/assets/ce1bba7c-a94b-452b-b404-40dc3242ff59" />
