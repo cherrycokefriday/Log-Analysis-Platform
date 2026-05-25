@@ -1,8 +1,11 @@
 # Log-Analysis-Platform
 
   <p>
-    This project was made for my distributed systems security course and it basically blends an IDS with SIEM in one web app. Of the useful components are my python event generator (simulating normal day to day events + attack events) and the rule based detection schemes created in PySpark for attack detection.
+    This project was developed as part of a Distributed Systems Security course and combines elements of an Intrusion Detection System (IDS) and a Security Information and Event Management (SIEM) platform within a unified web application.
   </p>
+
+  <p>Key components include a Python-based event generator designed to simulate both normal system activity and malicious attack scenarios, as well as rule-based detection pipelines implemented in PySpark for identifying suspicious behavior and potential security threats in real time.
+</p>
 
   <h2>Features</h2>
   <ul>
