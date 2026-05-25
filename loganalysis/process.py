@@ -49,7 +49,8 @@ def main():
 
     with producer as producer:
         while True:
-            bruteforce = random.choices([True, False], weights=[0.05,0.95])[0]
+            bruteforce = False
+            #bruteforce = random.choices([True, False], weights=[0.05,0.95])[0]
             lateral_attack = random.choices([True, False], weights=[0.05,0.95])[0]
 
             key, value = random.choices(

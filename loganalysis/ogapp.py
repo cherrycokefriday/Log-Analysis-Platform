@@ -32,8 +32,8 @@ TOPIC_DISPLAY_NAMES = {
     "system_install_logs": "Software Install Events",
     "user_create_logs": "User Account Creation",
     "proc_login": "Suspicious Process Logins",
-    "geo_login": "Geolocation Login Alerts",
-    "proc_exec": "Process Execution Alerts"
+    "geo_login": "Suspicious Geolocation Login Alerts",
+    "proc_exec": "Suspicious Process Execution Alerts"
 }
 
 
