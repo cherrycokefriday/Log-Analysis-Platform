@@ -3,6 +3,7 @@ from confluent_kafka import Consumer, KafkaError
 from collections import defaultdict
 import threading
 import json
+import bcrypt
 
 # ---------------------------------------------------------------------------
 # Config
@@ -12,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = "change-me-in-production"
 
 USERNAME = "admin"
-PASSWORD = "password123"
+PASSWORD_HASH = b"$2b$12$qExTyQERVPQxBE3YYEKdoeVtyGEjkNo0WjGz/b.aDca.0jDbBmQyy"
 
 KAFKA_BOOTSTRAP = "localhost:9092"
 
@@ -227,8 +228,9 @@ def login():
     error = None
 
     if request.method == "POST":
-        if (request.form.get("username") == USERNAME
-                and request.form.get("password") == PASSWORD):
+        # after
+        password_input = request.form.get("password", "").encode()
+        if request.form.get("username") == USERNAME and bcrypt.checkpw(password_input, PASSWORD_HASH):
             session["logged_in"] = True
             return redirect(url_for("dashboard"))
         error = "Invalid credentials."
